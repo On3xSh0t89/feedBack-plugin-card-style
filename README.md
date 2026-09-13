@@ -17,7 +17,7 @@ Normally feedBack picks the layout for you: charts with sections get the bars, a
    https://github.com/On3xSh0t89/feedBack-plugin-card-style.git
    ```
 
-3. Restart feedBack if the new settings panel does not appear.
+3. Restart feedBack. The Plugin Manager only activates new plugins after a restart.
 
 ## Use
 
