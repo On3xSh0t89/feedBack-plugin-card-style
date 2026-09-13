@@ -1,0 +1,13 @@
+{
+  "id": "card_style",
+  "name": "Results Card Style",
+  "version": "1.0.0",
+  "description": "Adds a setting to show the big accuracy layout on Song Complete result cards instead of per-section bars.",
+  "category": "tools",
+  "license": "MIT",
+  "script": "screen.js",
+  "settings": {
+    "html": "settings.html",
+    "category": "mic"
+  }
+}

@@ -1,0 +1,25 @@
+<div class="bg-dark-700/40 border border-gray-800 rounded-xl p-4 mb-4">
+    <h4 class="text-sm font-semibold text-gray-300 mb-2">Results card layout</h4>
+    <label class="flex items-start gap-3 cursor-pointer select-none">
+        <input type="checkbox" data-card-style="big-accuracy"
+               class="mt-0.5 rounded border-gray-600 bg-dark-700 text-accent focus:ring-accent/40">
+        <span class="text-sm text-gray-300">
+            Big accuracy layout on results cards
+            <span class="block text-[11px] text-gray-500 leading-relaxed mt-1">
+                Off: the card shows a bar for each song section. On: the card shows your accuracy as one large percentage with a full-width meter. Applies to cards you save, copy, or auto-save from Song Complete. The on-screen summary is unchanged. Takes effect on the next card, no restart needed.
+            </span>
+        </span>
+    </label>
+</div>
+<script>
+(function () {
+    var KEY = 'card_style_big_accuracy';
+    var scope = (document.currentScript && document.currentScript.parentNode) || document;
+    var box = scope.querySelector('input[data-card-style="big-accuracy"]');
+    if (!box) return;
+    try { box.checked = localStorage.getItem(KEY) === '1'; } catch (e) {}
+    box.addEventListener('change', function () {
+        try { localStorage.setItem(KEY, box.checked ? '1' : '0'); } catch (e) {}
+    });
+})();
+</script>
