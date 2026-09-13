@@ -14,7 +14,7 @@ Normally feedBack picks the layout for you: charts with sections get the bars, a
 2. Under **Install Plugin**, paste this repository's URL and click **Install**:
 
    ```
-   https://github.com/YOUR-GITHUB-USERNAME/feedBack-plugin-card-style.git
+   https://github.com/On3xSh0t89/feedBack-plugin-card-style.git
    ```
 
 3. Restart feedBack if the new settings panel does not appear.

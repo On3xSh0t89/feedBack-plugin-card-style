@@ -5,6 +5,7 @@
   "description": "Adds a setting to show the big accuracy layout on Song Complete result cards instead of per-section bars.",
   "category": "tools",
   "license": "MIT",
+  "homepage": "https://github.com/On3xSh0t89/feedBack-plugin-card-style",
   "script": "screen.js",
   "settings": {
     "html": "settings.html",
