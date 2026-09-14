@@ -42,7 +42,8 @@ The setting is stored in the app's local storage under `card_style_big_accuracy`
 ## Example
 
 <img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/c7015c9a-d101-4671-baff-dcc2e221e580" />
-<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/71098b0a-835d-4a80-81de-e2ce4b7ccff6" />
+<img width="1200" height="630" alt="feedback-i-got-love" src="https://github.com/user-attachments/assets/b377304f-126c-46d4-a9a0-c2aab914a800" />
+
 
 If a future feedBack version renames or restructures that function, the plugin does nothing rather than breaking anything. The card falls back to feedBack's normal behaviour.
 
